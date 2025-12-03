@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar fixed top-0 left-0 w-64 h-full bg-white
+     shadow-lg -translate-x-full transition-all duration-500">
+
+        <div>
+            <h1 onclick="closeSidebar()" class="ml-56 mt-2 cursor-pointer text-4xl">⤬</h1>
+        </div>
+        <div class="ml-13 mt-32">
+            <h1>Sidebar </h1>
+        </div>
+        <div class="flex flex-col  ml-12 mt-2">
+            <button class="rounded-[5px] hover:bg-linear-to-r from-[#128DFF] to-[#1444EF]
+             hover:text-white w-36 h-11 m-1 border
+             border-[#128DFF] text-[#128DFF]">Link 1</button>
+            <button class="rounded-[5px] hover:bg-linear-to-r from-[#128DFF] to-[#1444EF]
+             hover:text-white w-36 h-11 m-1 border
+             border-[#128DFF] text-[#128DFF]">Link 2</button>
+            <button class="rounded-[5px] hover:bg-linear-to-r from-[#128DFF] to-[#1444EF]
+             hover:text-white w-36 h-11 m-1 border
+             border-[#128DFF] text-[#128DFF]">Link 3</button>
+            <button class="rounded-[5px] hover:bg-linear-to-r from-[#128DFF] to-[#1444EF]
+             hover:text-white w-36 h-11 m-1 border
+             border-[#128DFF] text-[#128DFF]">Link 4</button>
+            <button class="rounded-[5px] hover:bg-linear-to-r from-[#128DFF] to-[#1444EF]
+             hover:text-white w-36 h-11 m-1 border
+             border-[#128DFF] text-[#128DFF]">Link 5</button>
+        </div>
+    </div>
+    <div class="flex flex-col h-screen w-full items-center justify-center">
+        <h1 class=" text-2xl text-[#808080] mb-1.5">Sidebar</h1>
+        <button onclick="openSidebar()" class="bg-linear-to-r from-[#128DFF] to-[#1444EF]
+         rounded-[5px] w-36 h-11 text-white">
+            Open Sidebar
+        </button>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
